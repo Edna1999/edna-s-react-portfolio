@@ -8,4 +8,4 @@ The following code is for my portfolio built using ReactJS. The portfolio opens 
 ![screenshot of portfolio](./src/assets/images/readmeImages/Screenshot%202022-12-10%20at%2012.09.24%20PM.png)
 
 
-Link to deployed page: 
+Link to deployed page: https://edna1999.github.io/edna-s-react-portfolio/
