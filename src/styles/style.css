@@ -1,0 +1,308 @@
+body{
+    background-image: url(../assets/images/OIP\ \(5\).jpeg);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navbar{
+    height: 100px;
+    margin-bottom: 50px;
+    border-bottom: 5px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.622);
+}
+
+.nav{
+    list-style-type: none;
+    color: rgb(238, 226, 211);
+    display: flex;
+    font-size: 25px;
+}
+
+.about, .work{
+    margin-left: 80px;
+    padding-left: 50px;
+    color: rgb(238, 226, 211);
+    border: 1px transparent;
+    font-size: 20px;
+}
+
+.about{
+    padding-left: 600px;
+
+}
+
+.home{
+    color: rgb(238, 226, 211);
+    border: 1px transparent;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.about:hover{
+    text-decoration: underline;
+    color: rgb(238, 226, 211);
+}
+
+.work:hover{
+    text-decoration: underline;
+    color: rgb(238, 226, 211);
+}
+
+#about{
+    width: 1400px;
+    height: 600px;
+    margin-left: 20px;
+    background-color: rgb(238, 226, 211);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.777);
+    margin-top: 20px;
+
+}
+
+#image{
+    padding: 20px;
+    height: 600px;
+    width: 550px;
+    box-shadow: 2px 2px 2px 2px rgba(33, 33, 33, 0.228);
+}
+
+#text{
+    margin-left: 100px;
+    font-family: 'Sono', sans-serif;
+    font-size: 20px ;
+}
+
+#head{
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+footer{
+    border-top: 3px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.622);
+
+}
+
+.footer{
+    border-top: 1px solid rgb(238, 226, 211);
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.link{
+    color: rgb(238, 226, 211);
+    padding: 0px 200px;
+}
+
+.link:hover{
+    color: black;
+}
+
+li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#work{
+    height: fit-content;
+    width: 500px;
+    display: inline-block;
+    margin: 50px;
+    margin-top: 80px;
+    box-shadow: 3px 3px 3px 3px rgba(2, 2, 2, 0.67);
+}
+
+img{
+    height: 300px;
+    width: 400px;
+    margin-right: 10px;
+}
+
+.paper {
+    display: inline-block;
+    justify-content: center;
+    width: 600px;
+    height: fit-content;
+    box-shadow: 3px 3px 3px, 3px rgba(0, 0, 0, 0.824);
+    margin: 50px;
+    background-color: rgb(238, 226, 211);
+    border-radius: 5px;
+  }
+  
+
+  .pin {
+    --pin-color: #d02627;
+    --pin-dark: #9e0608;
+    --pin-light: #fc7e7d;
+  
+    position: absolute;
+    margin-left: 300px;
+    width: 60px;
+    height: 50px;
+  }
+  
+  .shadow {
+    position: absolute;
+    top: 18px;
+    left: -8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: radial-gradient(rgb(238, 226, 211), 20%, rgba(201, 191, 141, 0));
+  }
+  
+  .metal {
+    position: absolute;
+    width: 5px;
+    height: 20px;
+    background: linear-gradient(to right, #808080, 40%, #eae8e8, 50%, #808080);
+    border-radius: 0 0 30% 30%;
+    transform: rotate(50deg);
+    transform-origin: bottom left;
+    top: 15px;
+    border-bottom: 1px solid #808080;
+  }
+  
+  .bottom-circle {
+    position: absolute;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--pin-color);
+    background: radial-gradient(
+      circle at bottom right,
+      var(--pin-light),
+      25%,
+      var(--pin-dark),
+      90%,
+      var(--pin-color)
+    );
+  }
+  
+  /* Barrel */
+  .bottom-circle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    width: 20px;
+    height: 30px;
+    transform: rotate(55deg);
+    transform-origin: 100% 100%;
+    border-radius: 0 0 40% 40%;
+    background: linear-gradient(
+      to right,
+      var(--pin-dark),
+      30%,
+      var(--pin-color),
+      90%,
+      var(--pin-light)
+    );
+  }
+  
+  /* Top circle */
+  .bottom-circle::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle at right,
+      var(--pin-light),
+      30%,
+      var(--pin-color),
+      var(--pin-dark) 80%
+    );
+  }
+
+  .card-title{
+    text-align: center;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  
+  input{
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 200px;
+  }
+
+  .name{
+    margin-bottom: 30px;
+  }
+
+  .email{
+    margin-bottom: 30px;
+  }
+
+  .message{
+    height: 200px;
+    margin-bottom: 30px;
+
+  }
+
+  .cm{
+    color: rgb(238, 226, 211);
+    margin-bottom: 40px;
+
+  }
+
+  .submit{
+    width: 100px;
+    border-radius: 5px;
+  }
+
+  h6{
+    color: rgb(238, 226, 211);
+  }
+
+  #aboutMe, #contact, #resume, #portfolio{
+    color: rgb(238, 226, 211);
+    margin-right: 30px;
+
+  }
+
+  #aboutMe{
+    margin-left: 600px;
+  }
+
+  .resMes{
+    color: rgb(238, 226, 211);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: cursive;
+
+  }
+
+  .resume-head{
+    color: rgb(225, 177, 117);
+  }
+
+  .resume-list{
+    color: rgb(238, 226, 211);
+    font-size: 20px;
+  }
+
+  .resume-container{
+    margin-left: 100px;
+  }
+
+  .error-text{
+    color: red;
+  }
+
+  .repo{
+    margin-left: 260px;
+  }
