@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/edna's-react-portfolio/static/css/main.c4f659cf.css",
-    "main.js": "/edna's-react-portfolio/static/js/main.ac927725.js",
-    "static/media/happyHourLog.png": "/edna's-react-portfolio/static/media/happyHourLog.27b95cbe10658d2fb18e.png",
-    "static/media/ecommerceBackend.png": "/edna's-react-portfolio/static/media/ecommerceBackend.99528fbc0171b8639256.png",
-    "static/media/employeeTracker.png": "/edna's-react-portfolio/static/media/employeeTracker.91cf514c99eea0c85afe.png",
-    "static/media/dailyPlanner.jpeg": "/edna's-react-portfolio/static/media/dailyPlanner.13e7cac05e32472376fc.jpeg",
-    "static/media/weatherDashboard.jpeg": "/edna's-react-portfolio/static/media/weatherDashboard.11f211dcec5eea587c8a.jpeg",
-    "static/media/noteTaker.png": "/edna's-react-portfolio/static/media/noteTaker.9eaf7ed23b0d8dac13a7.png",
-    "static/media/teamBoard.jpeg": "/edna's-react-portfolio/static/media/teamBoard.54a6fc309e7e48d7c8eb.jpeg",
-    "static/media/IMG_3113.JPG": "/edna's-react-portfolio/static/media/IMG_3113.1f6952b2f4487f09e462.JPG",
-    "static/media/passwordGenerator.jpeg": "/edna's-react-portfolio/static/media/passwordGenerator.1b1edc10d32ef2f7cfa7.jpeg",
-    "static/media/codingQuiz.jpeg": "/edna's-react-portfolio/static/media/codingQuiz.04c5ea8dcb5665d7dfb0.jpeg",
-    "static/media/bucketList.jpeg": "/edna's-react-portfolio/static/media/bucketList.96785b7b27159a5aee8b.jpeg",
-    "static/media/Resume copy.pdf": "/edna's-react-portfolio/static/media/Resume copy.7b9b99451100102ecfcd.pdf",
-    "static/media/OIP (5).jpeg": "/edna's-react-portfolio/static/media/OIP (5).796fd1ae9e93599b8495.jpeg",
-    "index.html": "/edna's-react-portfolio/index.html",
-    "main.c4f659cf.css.map": "/edna's-react-portfolio/static/css/main.c4f659cf.css.map",
-    "main.ac927725.js.map": "/edna's-react-portfolio/static/js/main.ac927725.js.map"
+    "main.css": "/edna-s-react-portfolio/static/css/main.e962daa1.css",
+    "main.js": "/edna-s-react-portfolio/static/js/main.92945279.js",
+    "static/media/happyHourLog.png": "/edna-s-react-portfolio/static/media/happyHourLog.27b95cbe10658d2fb18e.png",
+    "static/media/ecommerceBackend.png": "/edna-s-react-portfolio/static/media/ecommerceBackend.99528fbc0171b8639256.png",
+    "static/media/employeeTracker.png": "/edna-s-react-portfolio/static/media/employeeTracker.91cf514c99eea0c85afe.png",
+    "static/media/dailyPlanner.jpeg": "/edna-s-react-portfolio/static/media/dailyPlanner.13e7cac05e32472376fc.jpeg",
+    "static/media/weatherDashboard.jpeg": "/edna-s-react-portfolio/static/media/weatherDashboard.11f211dcec5eea587c8a.jpeg",
+    "static/media/noteTaker.png": "/edna-s-react-portfolio/static/media/noteTaker.9eaf7ed23b0d8dac13a7.png",
+    "static/media/teamBoard.jpeg": "/edna-s-react-portfolio/static/media/teamBoard.54a6fc309e7e48d7c8eb.jpeg",
+    "static/media/IMG_3113.JPG": "/edna-s-react-portfolio/static/media/IMG_3113.1f6952b2f4487f09e462.JPG",
+    "static/media/passwordGenerator.jpeg": "/edna-s-react-portfolio/static/media/passwordGenerator.1b1edc10d32ef2f7cfa7.jpeg",
+    "static/media/codingQuiz.jpeg": "/edna-s-react-portfolio/static/media/codingQuiz.04c5ea8dcb5665d7dfb0.jpeg",
+    "static/media/bucketList.jpeg": "/edna-s-react-portfolio/static/media/bucketList.96785b7b27159a5aee8b.jpeg",
+    "static/media/Resume copy.pdf": "/edna-s-react-portfolio/static/media/Resume copy.7b9b99451100102ecfcd.pdf",
+    "static/media/OIP (5).jpeg": "/edna-s-react-portfolio/static/media/OIP (5).796fd1ae9e93599b8495.jpeg",
+    "index.html": "/edna-s-react-portfolio/index.html",
+    "main.e962daa1.css.map": "/edna-s-react-portfolio/static/css/main.e962daa1.css.map",
+    "main.92945279.js.map": "/edna-s-react-portfolio/static/js/main.92945279.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4f659cf.css",
-    "static/js/main.ac927725.js"
+    "static/css/main.e962daa1.css",
+    "static/js/main.92945279.js"
   ]
 }
