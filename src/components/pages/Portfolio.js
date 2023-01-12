@@ -11,6 +11,7 @@ import noteTaker from '../../assets/images/noteTaker.png';
 import employeeTracker from '../../assets/images/employeeTracker.png';
 import bucketList from '../../assets/images/bucketList.jpeg';
 import textEditor from '../../assets/images/textEditor.png';
+import socialNetwork from '../../assets/images/socialnetwork.png';
 
 
 
@@ -72,6 +73,7 @@ export default function Portfolio() {
 
 </div>
 
+
 <div className="paper">
   <div className="pin">
     <div className="shadow"></div>
@@ -80,7 +82,7 @@ export default function Portfolio() {
   </div>
   <a  href="https://calm-lowlands-90253.herokuapp.com/">
     <div className="card bg-dark text-white" id="work">
-    <img src={codingQuiz} class="card-img-top" alt="coding quiz"></img>
+    <img src={textEditor} class="card-img-top" alt="coding quiz"></img>
 
           <h5 className="card-title">Text Editor</h5> 
           </div>
@@ -88,6 +90,7 @@ export default function Portfolio() {
   <a className='repo' href='https://github.com/Edna1999/text-editor'>[repo]</a>
 
 </div>
+
 
 <div className="paper">
   <div className="pin">
@@ -141,6 +144,24 @@ export default function Portfolio() {
 
   </a>
   <a className='repo' href='https://github.com/Edna1999/bucket-list.git'>[repo]</a>
+
+</div>
+
+<div className="paper">
+  <div className="pin">
+    <div className="shadow"></div>
+    <div className="metal"></div>
+    <div className="bottom-circle"></div>
+  </div>
+  <a   href="https://edna1999.github.io/social-network-api/">
+    <div className="card bg-dark text-white" id="work">
+    <img src={socialNetwork} class="card-img-top" alt="bucket list"></img>
+
+          <h5 className="card-title">Social Network</h5>
+         </div>
+
+  </a>
+  <a className='repo' href='https://github.com/Edna1999/social-network-api.git'>[repo]</a>
 
 </div>
 
