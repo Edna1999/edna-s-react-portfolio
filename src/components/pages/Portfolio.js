@@ -96,7 +96,7 @@ export default function Portfolio() {
     <div className="metal"></div>
     <div className="bottom-circle"></div>
   </div>
-  <a  href="https://possessed-pirate-93340.herokuapp.com/">
+  <a  href="https://happyhourlog.herokuapp.com/">
     <div className="card bg-dark text-white" id="work">
     <img src={happyHourLog} class="card-img-top" alt="happy hour log"></img>
 
