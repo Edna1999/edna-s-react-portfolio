@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/edna-s-react-portfolio/static/css/main.e962daa1.css",
-    "main.js": "/edna-s-react-portfolio/static/js/main.bf85f5c6.js",
+    "main.js": "/edna-s-react-portfolio/static/js/main.b85db9c0.js",
     "static/media/happyHourLog.png": "/edna-s-react-portfolio/static/media/happyHourLog.27b95cbe10658d2fb18e.png",
     "static/media/socialnetwork.png": "/edna-s-react-portfolio/static/media/socialnetwork.028d15846b4bcd0a0f6a.png",
     "static/media/ecommerceBackend.png": "/edna-s-react-portfolio/static/media/ecommerceBackend.99528fbc0171b8639256.png",
@@ -19,10 +19,10 @@
     "static/media/OIP (5).jpeg": "/edna-s-react-portfolio/static/media/OIP (5).796fd1ae9e93599b8495.jpeg",
     "index.html": "/edna-s-react-portfolio/index.html",
     "main.e962daa1.css.map": "/edna-s-react-portfolio/static/css/main.e962daa1.css.map",
-    "main.bf85f5c6.js.map": "/edna-s-react-portfolio/static/js/main.bf85f5c6.js.map"
+    "main.b85db9c0.js.map": "/edna-s-react-portfolio/static/js/main.b85db9c0.js.map"
   },
   "entrypoints": [
     "static/css/main.e962daa1.css",
-    "static/js/main.bf85f5c6.js"
+    "static/js/main.b85db9c0.js"
   ]
 }
