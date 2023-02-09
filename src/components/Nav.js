@@ -16,12 +16,7 @@ return (
     <li className="nav-item">
         <a id='portfolio' href="#portfolio"
         onClick={() => handlePageChange('Portfolio')}
-        className={currentPage === 'Portfolio' ? 'nav-link-active' : 'nav-link'}>Portfolio</a>
-    </li>
-    <li className="nav-item">
-        <a  id='contact' href="#contact"
-        onClick={() => handlePageChange('Contact')}
-        className={currentPage === 'Contact' ? 'nav-link-active' : 'nav-link'}>Contact</a>
+        className={currentPage === 'Portfolio' ? 'nav-link-active' : 'nav-link'}>Projects</a>
     </li>
     <li className="nav-item">
         <a id='resume' href="#resume"
