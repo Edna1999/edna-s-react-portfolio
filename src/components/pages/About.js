@@ -12,16 +12,12 @@ export default function About() {
         <div className="col-md-8">
           <div className="card-body" id="text">
             <h3 className="card-title" id="head">About Me</h3>
-            <p className="card-text">My name is Edna Omadjambe. I am an entry level full stack web developer and graduate of The Ohio State University Full Stack Web Development bootcamp. 
-              During my time in the bootcamp I acquired technical skills in Javascript, HTML, CSS, Bootstrap, Node.js, Express.js, MYSQL, NoSQL, MongoDB, jQuery, PWA's, jest, ReactJs, GraphQL and MERN stack.
-             The bootcamp has also helped sharpen my soft skills such as teamwork, problem solving, communication, conducting research and creativity. 
-            </p>
-             <p> I would like to believe that over time I have become more resourceful; I make it my goal to truly understand all the new skills I have acquired. With true understanding I believe that I am better equipt to not only
-             deliver great results but help others to understand the task at hand. 
+            <p className="card-text">
+              A solution driven web developer adept at contibuting to highly collaborative work environments and finding solutions with my experience developing websites using front-end technologies like HTML, CSS, Vanilla JavaScript and React, Backend technologies like Node.js and Express.js and databases like MySQL and MongoDB.  
             </p>
             <p>
-              I am willing to learn new things and adapt to my surroundings, as well as acknowledge when I need help or dont understand something. I am that way not only in regards to 
-              coding but life. I see nothing wrong in asking for help as well as seeking out knowledge for a better understanding of something. 
+            With a proven ability to adapt to both self-starting and collaborative environments while staying focused on achieving high quality results. I am eager to obtain a challenging position that will expand my learning and build up my developer skills.
+            Passionate about web development and knowledgable in developing projects using Scrum, Agile and Lean processes. Skilled in conceptualizing, designing, development and deploying software containing logical solutions. I am dedicated to driving innovation with the ability to follow industry and technological trends and facilitate adoptions of said trends.
             </p>
           </div>
         </div>
