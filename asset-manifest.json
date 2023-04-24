@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/edna-s-react-portfolio/static/css/main.aba04268.css",
-    "main.js": "/edna-s-react-portfolio/static/js/main.136ee3e0.js",
+    "main.css": "/edna-s-react-portfolio/static/css/main.7c080440.css",
+    "main.js": "/edna-s-react-portfolio/static/js/main.6e84d5a7.js",
     "static/media/happyHourLog.png": "/edna-s-react-portfolio/static/media/happyHourLog.27b95cbe10658d2fb18e.png",
     "static/media/movieland.png": "/edna-s-react-portfolio/static/media/movieland.85ee72d86f6579341cda.png",
     "static/media/socialnetwork.png": "/edna-s-react-portfolio/static/media/socialnetwork.028d15846b4bcd0a0f6a.png",
     "static/media/ecommerceBackend.png": "/edna-s-react-portfolio/static/media/ecommerceBackend.99528fbc0171b8639256.png",
     "static/media/R.jpeg": "/edna-s-react-portfolio/static/media/R.9b507faa51479a0d4adf.jpeg",
+    "static/media/employeeTracker.png": "/edna-s-react-portfolio/static/media/employeeTracker.91cf514c99eea0c85afe.png",
     "static/media/dailyPlanner.jpeg": "/edna-s-react-portfolio/static/media/dailyPlanner.13e7cac05e32472376fc.jpeg",
     "static/media/weatherDashboard.jpeg": "/edna-s-react-portfolio/static/media/weatherDashboard.11f211dcec5eea587c8a.jpeg",
-    "static/media/noteTaker.png": "/edna-s-react-portfolio/static/media/noteTaker.9eaf7ed23b0d8dac13a7.png",
     "static/media/teamBoard.jpeg": "/edna-s-react-portfolio/static/media/teamBoard.54a6fc309e7e48d7c8eb.jpeg",
     "static/media/passwordGenerator.jpeg": "/edna-s-react-portfolio/static/media/passwordGenerator.1b1edc10d32ef2f7cfa7.jpeg",
     "static/media/codingQuiz.jpeg": "/edna-s-react-portfolio/static/media/codingQuiz.04c5ea8dcb5665d7dfb0.jpeg",
     "static/media/textEditor.png": "/edna-s-react-portfolio/static/media/textEditor.1dd2df646555e3b725ac.png",
     "static/media/bucketList.jpeg": "/edna-s-react-portfolio/static/media/bucketList.5bb4a81c73420d54cccf.jpeg",
     "index.html": "/edna-s-react-portfolio/index.html",
-    "main.aba04268.css.map": "/edna-s-react-portfolio/static/css/main.aba04268.css.map",
-    "main.136ee3e0.js.map": "/edna-s-react-portfolio/static/js/main.136ee3e0.js.map"
+    "main.7c080440.css.map": "/edna-s-react-portfolio/static/css/main.7c080440.css.map",
+    "main.6e84d5a7.js.map": "/edna-s-react-portfolio/static/js/main.6e84d5a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.aba04268.css",
-    "static/js/main.136ee3e0.js"
+    "static/css/main.7c080440.css",
+    "static/js/main.6e84d5a7.js"
   ]
 }
