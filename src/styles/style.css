@@ -19,8 +19,6 @@ nav{
     margin: 0 auto;
     width: 150px;
     height: 160px;
-    font-size: 25px;
-    font-family: monospace;
     text-align: center;
 }
 
@@ -34,9 +32,6 @@ nav{
 .nav-link{
     color: white;
     text-decoration: none;
-    padding-top: 50px;
-    
-
 
 }
 
