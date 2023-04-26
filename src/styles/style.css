@@ -272,7 +272,8 @@ nav{
     border-radius: 10px;
     margin-bottom: 10px;
     position: sticky;
-
+    text-align: center;
+    margin: 0 auto;
   }
 
   .one{
@@ -298,24 +299,43 @@ nav{
     position: absolute;
     right: 50%;
     left: 5%;
-    top: 40%;
+    top: 70%;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
-    margin-left: 130px;
+    margin-left: 110px;
     font-family: monospace;
-    font-size: 25px;
+    font-size: 20px;
     border: 1px solid transparent;
-    width: fit-content;
-    padding: 15px;
-    border-radius: 52px;
-    color: white;
-    background-color: pink;
-    box-shadow: 1px 1px 1px 1px rgba(149, 70, 151, 0.52);
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    
+    box-shadow: 1px 1px 1px 1px pink;
+
   }
 
+
+ .con-head{
+  position: absolute;
+  right: 50%;
+  left: 5%;
+  top: 30%;
+  opacity: 0;
+  color: white;
+  transition: opacity 0.2s ease-in-out;
+  padding: 10px;
+  height: 50px;
+  font-family: cursive;
+  padding: 10px;
+  width: 150px;
+  margin-left: 110px;
+  
+ }
+
+
   .learn-more:hover{
-    background-color: rgba(149, 70, 151, 0.52);
-    box-shadow: 1px 1px 1px 1px pink;
+    box-shadow: 2px 2px 2px 2px pink;
     animation-name: pulse;
     animation-duration: 3s;
     animation-fill-mode: both;
@@ -334,10 +354,18 @@ nav{
     }
   }
 
-  .pro:hover .learn-more {
+  .pro:hover .learn-more{
     opacity: 1;
     
   }
+
+  .pro:hover .con-head{
+    opacity: 1;
+    
+  }
+
+  
+  
 
 
   .modal-container {

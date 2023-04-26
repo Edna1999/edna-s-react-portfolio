@@ -23,21 +23,6 @@ import movieland from '../assets/images/movieland.png';
 export default function PortfolioContainer() {
 
   const [isVisible, setIsVisible] = useState(false);
-  const [showModal1, setShowModal1] = useState(false);
-  const [showModal2, setShowModal2] = useState(false);
-  const [showModal3, setShowModal3] = useState(false);
-  const [showModal4, setShowModal4] = useState(false);
-  const [showModal5, setShowModal5] = useState(false);
-  const [showModal6, setShowModal6] = useState(false);
-  const [showModal7, setShowModal7] = useState(false);
-  const [showModal8, setShowModal8] = useState(false);
-  const [showModal9, setShowModal9] = useState(false);
-  const [showModal10, setShowModal10] = useState(false);
-  const [showModal11, setShowModal11] = useState(false);
-  const [showModal12, setShowModal12] = useState(false);
-
-
-
 
   useEffect(() => {
     function handleScroll() {
@@ -52,62 +37,6 @@ export default function PortfolioContainer() {
   }, []);
   
 
-  function toggleModal1() {
-    setShowModal1(!showModal1);
-    
-  }
-
-  function toggleModal2() {
-    setShowModal2(!showModal2);
-  }
-
-  function toggleModal3() {
-    setShowModal3(!showModal3);
-  }
-
-
-  function toggleModal4() {
-    setShowModal4(!showModal4);
-  }
-
-  function toggleModal5() {
-    setShowModal5(!showModal5);
-  }
-
-  function toggleModal6() {
-    setShowModal6(!showModal6);
-  }
-
-
-  function toggleModal7() {
-    setShowModal7(!showModal7);
-  }
-
-  function toggleModal8() {
-    setShowModal8(!showModal8);
-  }
-
-  function toggleModal9() {
-    setShowModal9(!showModal9);
-  }
-
-
-  function toggleModal10() {
-    setShowModal10(!showModal10);
-  }
-
-  function toggleModal11() {
-    setShowModal11(!showModal11);
-  }
-
-  function toggleModal12() {
-    setShowModal12(!showModal12);
-  }
-
- 
-
-
- 
    return (
     <div>
       <nav>
@@ -250,35 +179,14 @@ export default function PortfolioContainer() {
         <img src={bucketList} className="image" alt="bucket list">
         </img>
       
-       
-        <button onClick={()=> {
-          toggleModal1()
-         
-        }}
-          className='learn-more'
-       
-          >Learn More</button>
+       <h3 className='con-head'>Bucket List<hr/></h3>
+        <button className='learn-more'><a href='https://edna1999.github.io/bucket-list/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal1 && (
-          
 
-    <div className="modal-container " >
-      <div className="modal-header">
-        <h5 className="modal-title">Bucket List<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal1} style={{marginRight:'10px'}} ></button>
-       
-      </div>
-      <div className="modal-body">
-        <p>This is a app created using ReactJS and NodeJS to add activities to a bucketlist as well as prioritize those activities.</p>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-primary modal-btn" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px rgba(59, 59, 60, 0.643)'}}><a className='view-site' href="https://edna1999.github.io/bucket-list/" >View Site</a></button>
-      </div>
-    </div>
-   
-      )}
+        </div>
         
-   </div>
+        
+  
 
         
         <div className="pro"  >
@@ -287,34 +195,12 @@ export default function PortfolioContainer() {
         
         
         <div className='text-overlay'>
-        <button onClick={toggleModal2}
-          className='learn-more'>Learn More</button>
+        
 
+        <h3 className='con-head'>MovieLand<hr/></h3>
+        <button className='learn-more'><a href='https://mighty-depths-05925.herokuapp.com/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-
-        {showModal2 && (
-
-    <div className="modal-container ">
-  
-      <div className="modal-header">
-        <h5 className="modal-title">MovieLand <hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal2} style={{marginRight:'10px'}} ></button>
-       
-      </div>
-      <div className="modal-body">
-        <p>This is a app created using ReactJS, OMDB (third-party) api and NodeJS to look up tv shows and movies.</p>
-
-      </div>
-
-      <div className="modal-footer">
-
-  
-        <button type="button" className=" btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px  rgba(59, 59, 60, 0.643)'}}><a className='view-site' href="https://mighty-depths-05925.herokuapp.com/" >View Site</a></button>
-      </div>
-    </div>
-   
-       
-      )}
+        
             
         </div>
        
@@ -325,27 +211,11 @@ export default function PortfolioContainer() {
            <img src={codingQuiz} className="image"alt="coding quiz"></img>
 
            <div className='text-overlay'>
-           <button onClick={toggleModal3}
-          className='learn-more'>Learn More</button>
 
-        {showModal3 && (
+           <h3 className='con-head'>Coding Quiz<hr/></h3>
+           <button className='learn-more'><a href='https://edna1999.github.io/coding-quiz/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-    <div className="modal-container ">
-      <div className="modal-header">
-        <h5 className="modal-title">Coding Quiz<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal3} style={{marginRight:'10px'}} ></button>
-       
-      </div>
-      <div className="modal-body">
-        <p>This is a coding quiz created using HTML, CSS and Vanilla JavaScript. The quiz is timed and if one of the questions is answered wrong time will be deducted. At the end of the quiz your results will showcase as well.</p>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px  rgba(59, 59, 60, 0.643)'}}><a  className='view-site' href="https://edna1999.github.io/coding-quiz/">View Site</a></button>
-      </div>
-    </div>
- 
-       
-      )}
+        
             
         </div>
           
@@ -358,27 +228,10 @@ export default function PortfolioContainer() {
           <img src={textEditor} className="image"alt="text editor"></img>
 
           <div className='text-overlay'>
-          <button onClick={toggleModal4}
-          className='learn-more'>Learn More</button>
+          <h3 className='con-head'>Text Editor<hr/></h3>
+           <button className='learn-more'><a href='https://calm-lowlands-90253.herokuapp.com/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal4 && (
-
-    <div className="modal-container ">
-      <div className="modal-header">
-        <h5 className="modal-title">Text Editor<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal4} style={{marginRight:'10px'}} ></button>
-       
-      </div>
-      <div className="modal-body">
-        <p>This is a app created using ReactJS and NodeJS to add activities to a bucketlist as well as prioritize those activities..</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px rgba(59, 59, 60, 0.643)'}}><a className='view-site' href="https://calm-lowlands-90253.herokuapp.com/">View Site</a></button>
-      </div>
-    </div>
-    
-       
-      )}
+        
               
           </div>
           
@@ -391,27 +244,10 @@ export default function PortfolioContainer() {
           <img src={weatherDashboard} className="image"alt="weather board"></img>
 
           <div className='text-overlay'>
-          <button onClick={toggleModal5}
-          className='learn-more'>Learn More</button>
+          <h3 className='con-head'>Weather Dashboard<hr/></h3>
+           <button className='learn-more'><a href='https://edna1999.github.io/weather-dashboard/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal5 && (
-
-    <div className="modal-container " >
-      <div className="modal-header">
-        <h5 className="modal-title">Weather Dashboard<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal5} style={{marginRight:'10px'}} ></button>
-       
-      </div>
-      <div className="modal-body">
-        <p>This is a weather dashboard created using HTML, CSS, open weather (third-party) api and Vanilla JavaScript. It shows the temperature, humidity and wind speeds for the current day as well as five days in advance in cities all over the world.</p>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px  rgba(59, 59, 60, 0.643)'}}><a className='view-site' href="https://edna1999.github.io/weather-dashboard/">View Site</a></button>
-      </div>
-    </div>
-   
-       
-      )}
+        
         </div>
          
             
@@ -422,28 +258,10 @@ export default function PortfolioContainer() {
           <img src={happyHourLog} className="image"alt="happy hour log"></img>
           
           <div className='text-overlay'>
-          <button onClick={toggleModal6}
-          className='learn-more'>Learn More</button>
+          <h3 className='con-head'>Happy Hour Log<hr/></h3>
+           <button className='learn-more'><a href='https://happyhourlog.herokuapp.com/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal6 && (
-
-    <div className="modal-container ">
-      <div className="modal-header">
-        <h5 className="modal-title">Happy Hour Log<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal6} style={{marginRight:'10px'}} ></button>
-       
-      </div>
-      <div className="modal-body">
-        <p>This is a app created using an MVC paradigm, NodeJS, ExpressJS, MySQL (sequilize) and handlebars.js to log happy hour deals. Users can create a profile, log deals and view their logs as well as view other users posts.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px  rgba(59, 59, 60, 0.643)'}}><a className='view-site'href="https://happyhourlog.herokuapp.com/">View Site</a></button>
-      </div>
-    </div>
- 
-       
-      )}
-            
+        
         </div>
          
             
@@ -454,27 +272,10 @@ export default function PortfolioContainer() {
           <img  src={passwordGenerator} alt='password generator' className="image" ></img>
           
           <div className='text-overlay'>
-          <button onClick={toggleModal7}
-          className='learn-more'>Learn More</button>
+          <h3 className='con-head'>Password Generator<hr/></h3>
+           <button className='learn-more'><a href='https://edna1999.github.io/Random-generator/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal7 && (
-
-    <div className="modal-container " >
-      <div className="modal-header">
-        <h5 className="modal-title">Password Generator<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal7} style={{marginRight:'10px'}} ></button>
-       
-      </div>
-      <div className="modal-body">
-        <p>This is a password  generator created using HTML, CSS, and Vanilla JavaScript. A prompt appears when the generate button is pressed with questions to do with how many characters you'd like the password to contain and what type of characters you want included in the password and once all the information is filled out a random password is created for you.</p>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px rgba(59, 59, 60, 0.643)'}}><a  className='view-site'href="https://edna1999.github.io/Random-generator//">View Site</a></button>
-      </div>
-    </div>
-    
-       
-      )}
+      
             
         </div>
                 
@@ -487,27 +288,10 @@ export default function PortfolioContainer() {
           <img src={socialNetwork} className="image"alt="social network"></img>
 
           <div className='text-overlay'>
-          <button onClick={toggleModal8}
-          className='learn-more'>Learn More</button>
+          <h3 className='con-head'>Social Network<hr/></h3>
+           <button className='learn-more'><a href='https://watch.screencastify.com/v/INnqrVytfZlySehkUGsR' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal8 && (
-
-    <div className="modal-container " >
-      <div className="modal-header">
-        <h5 className="modal-title">Social Network<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal8} style={{marginRight:'10px'}} ></button>
-       
-      </div>
-      <div className="modal-body">
-        <p>This is a app created using ExpressJS, NodeJS and MongoDB showcasing what the backend of a social network would look like.</p>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px rgba(59, 59, 60, 0.643)'}}><a className='view-site' href="https://watch.screencastify.com/v/INnqrVytfZlySehkUGsR">Walk-through Video</a></button>
-      </div>
-    </div>
-   
-       
-      )}
+     
         </div>
         
             
@@ -519,27 +303,9 @@ export default function PortfolioContainer() {
             
 
           <div className='text-overlay'>
-          <button onClick={toggleModal9}
-          className='learn-more'>Learn More</button>
-
-        {showModal9 && (
-
-    <div className="modal-container " >
-      <div className="modal-header">
-        <h5 className="modal-title">Team Board Generator<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal9} style={{marginRight:'10px'}} ></button>
-      </div>
-      <div className="modal-body">
-        <p>This is an app created using ExpressJS and NodeJS to build an HTML page containing a team board from your terminal. The styling was done using both bootstrap and CSS.</p>
-      </div>
-      <div className="modal-footer">
-      
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px  rgba(59, 59, 60, 0.643)'}}><a className='view-site' href="https://edna1999.github.io/bucket-list/">View Site</a></button>
-      </div>
-    </div>
-   
+          <h3 className='con-head'>Team Board<hr/></h3>
+           <button className='learn-more'><a href='https://watch.screencastify.com/v/INnqrVytfZlySehkUGsR' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
        
-      )}
             
         </div>
           
@@ -552,27 +318,10 @@ export default function PortfolioContainer() {
             
 
           <div className='text-overlay'>
-          <button onClick={toggleModal10}
-          className='learn-more'>Learn More</button>
+          <h3 className='con-head'>eCommerce Backend<hr/></h3>
+           <button className='learn-more'><a href='https://watch.screencastify.com/v/fBYcbMFWY00qV05cvrMG' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal10 && (
-
-    <div className="modal-container " >
-      <div className="modal-header">
-        <h5 className="modal-title">eCommerce Backend<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal10} style={{marginRight:'10px'}} ></button>
-      </div>
-      <div className="modal-body">
-        <p>This is a app created using ExpressJS, MySQL(sequilize) to create, map and test APIs, demonstrating Back-End ability.
-       </p>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px rgba(59, 59, 60, 0.643)'}}><a className='view-site' href="https://watch.screencastify.com/v/fBYcbMFWY00qV05cvrMG">Walk-through video</a></button>
-      </div>
-    </div>
-   
-       
-      )}
+        
             
         </div>
           
@@ -584,26 +333,10 @@ export default function PortfolioContainer() {
           <img src={employeeTracker} className="image" alt="employee-tracker"></img>
 
           <div className='text-overlay'>
-          <button onClick={toggleModal11}
-          className='learn-more'>Learn More</button>
+          <h3 className='con-head'>Employee Tracker<hr/></h3>
+           <button className='learn-more'><a href='https://watch.screencastify.com/v/58rzmCct0eBPSRyx2WPF' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal11 && (
-
-    <div className="modal-container ">
-      <div className="modal-header">
-        <h5 className="modal-title">Employee Tracker<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal11} style={{marginRight:'10px'}} ></button>
-      </div>
-      <div className="modal-body">
-        <p>This app is an employee tracker run through the terminal.With the use of NodeJS, ExpressJS and MySQL this app showcases and tracks employee information allowing users to view all departments, view all roles, view all employees, add a department, add a role, add an employee or update an employee. </p>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px  rgba(59, 59, 60, 0.643)'}}><a className='view-site'  href="https://watch.screencastify.com/v/58rzmCct0eBPSRyx2WPF">Walk-Through video</a></button>
-      </div>
-    </div>
-   
-       
-      )}
+        
             
         </div>
         
@@ -614,26 +347,10 @@ export default function PortfolioContainer() {
 
           <img src={dailyPlanner} className="image"alt="daily planner"></img>
 
-          <button onClick={toggleModal12}
-          className='learn-more'>Learn More</button>
+          <h3 className='con-head'>Daily Planner<hr/></h3>
+           <button className='learn-more'><a href='https://edna1999.github.io/Daily-Planner' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
-        {showModal12 && (
-
-    <div className="modal-container ">
-      <div className="modal-header">
-        <h5 className="modal-title">Daily Planner<hr/></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={toggleModal12} style={{marginRight:'10px'}} ></button>
-      </div>
-      <div className="modal-body">
-        <p>This is a daily planner created using HTML, CSS and Vanilla JavaScript. The boxes with a grey background are for past times. The box with a red background is the current time. The boxes with a green background are for future times. Once information has been typed into the box it should save once the blue save button on the side is clicked. If the page is refreshed the data should still remain on the page. </p>
-      </div>
-      <div className="modal-footer">
-        <button type="button" className="btn btn-primary" style={{marginRight:'10px', backgroundColor:'rgb(196, 126, 221, 0.804)', border:'none', boxShadow: '1px 1px 1px 1px rgba(59, 59, 60, 0.643)'}}><a className='view-site' href="https://edna1999.github.io/Daily-Planner/">View Site</a></button>
-      </div>
-    </div>
-   
        
-      )}
         
           </div>
 
