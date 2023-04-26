@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/edna-s-react-portfolio/static/css/main.4d57d13b.css",
-    "main.js": "/edna-s-react-portfolio/static/js/main.23e66933.js",
+    "main.css": "/edna-s-react-portfolio/static/css/main.6883e0f3.css",
+    "main.js": "/edna-s-react-portfolio/static/js/main.d68cdea2.js",
     "static/media/happyHourLog.png": "/edna-s-react-portfolio/static/media/happyHourLog.27b95cbe10658d2fb18e.png",
     "static/media/movieland.png": "/edna-s-react-portfolio/static/media/movieland.85ee72d86f6579341cda.png",
     "static/media/socialnetwork.png": "/edna-s-react-portfolio/static/media/socialnetwork.028d15846b4bcd0a0f6a.png",
@@ -16,11 +16,11 @@
     "static/media/textEditor.png": "/edna-s-react-portfolio/static/media/textEditor.1dd2df646555e3b725ac.png",
     "static/media/bucketList.jpeg": "/edna-s-react-portfolio/static/media/bucketList.5bb4a81c73420d54cccf.jpeg",
     "index.html": "/edna-s-react-portfolio/index.html",
-    "main.4d57d13b.css.map": "/edna-s-react-portfolio/static/css/main.4d57d13b.css.map",
-    "main.23e66933.js.map": "/edna-s-react-portfolio/static/js/main.23e66933.js.map"
+    "main.6883e0f3.css.map": "/edna-s-react-portfolio/static/css/main.6883e0f3.css.map",
+    "main.d68cdea2.js.map": "/edna-s-react-portfolio/static/js/main.d68cdea2.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d57d13b.css",
-    "static/js/main.23e66933.js"
+    "static/css/main.6883e0f3.css",
+    "static/js/main.d68cdea2.js"
   ]
 }
