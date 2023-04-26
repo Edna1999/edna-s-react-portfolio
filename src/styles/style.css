@@ -16,14 +16,12 @@ nav{
     background-color: transparent;
     border: 1px solid black;
     color: white;
-    font-size: 20px;
-    padding-top: 60px;
-    padding-bottom: 60px;
     margin: 0 auto;
     width: 150px;
+    height: 160px;
     font-size: 25px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
+    font-family: monospace;
+    text-align: center;
 }
 
 .nav-btn:hover{
@@ -36,6 +34,9 @@ nav{
 .nav-link{
     color: white;
     text-decoration: none;
+    padding-top: 50px;
+    
+
 
 }
 
