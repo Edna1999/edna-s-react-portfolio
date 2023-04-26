@@ -276,6 +276,12 @@ nav{
     margin: 0 auto;
   }
 
+  .pro:hover{
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.483);
+  }
+
+  
+
   .one{
     margin-left: 200px;
   }
@@ -290,7 +296,7 @@ nav{
   
 
   .pro:hover .image{
-    opacity: 0.1;
+    opacity: 0.05;
   }
 
  
