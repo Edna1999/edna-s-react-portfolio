@@ -15,7 +15,7 @@ import bucketList from '../assets/images/bucketList.jpeg';
 import textEditor from '../assets/images/textEditor.png';
 import socialNetwork from '../assets/images/socialnetwork.png';
 import movieland from '../assets/images/movieland.png';
-
+import summarizer from '../assets/images/summarizer.png';
 
 
 
@@ -173,19 +173,22 @@ export default function PortfolioContainer() {
 
         <h1 id='projects'>Projects</h1>
 
+       
+  
+        
         <div className="pro one" >
 
-        
-        <img src={bucketList} className="image" alt="bucket list">
-        </img>
-      
-       <h3 className='con-head'>Bucket List<hr/></h3>
-        <button className='learn-more'><a href='https://edna1999.github.io/bucket-list/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
+      <img src={summarizer} className="image"alt="summarizer"></img>
+
+      <div className='text-overlay'>
+      <h3 className='con-head'>Summarizer<hr/></h3>
+      <button className='learn-more'><a href='https://react-article-summarizer.netlify.app/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
 
 
-        </div>
+      </div>
+
         
-        
+      </div>
   
 
         
@@ -205,8 +208,22 @@ export default function PortfolioContainer() {
         </div>
        
         </div>
-          
-           <div className="pro" >
+
+           <div className="pro " >
+
+        
+        <img src={bucketList} className="image" alt="bucket list">
+        </img>
+      
+       <h3 className='con-head'>Bucket List<hr/></h3>
+        <button className='learn-more'><a href='https://edna1999.github.io/bucket-list/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
+
+
+        </div>
+
+
+
+           <div className="pro one" >
 
            <img src={codingQuiz} className="image"alt="coding quiz"></img>
 
@@ -223,7 +240,9 @@ export default function PortfolioContainer() {
             
           </div>
 
-          <div className="pro one" >
+
+
+          <div className="pro " >
 
           <img src={textEditor} className="image"alt="text editor"></img>
 
@@ -253,19 +272,6 @@ export default function PortfolioContainer() {
             
           </div>
 
-          <div className="pro" >
-
-          <img src={happyHourLog} className="image"alt="happy hour log"></img>
-          
-          <div className='text-overlay'>
-          <h3 className='con-head'>Happy Hour Log<hr/></h3>
-           <button className='learn-more'><a href='https://happyhourlog.herokuapp.com/' style={{textDecoration: 'none', color:'rgba(149, 70, 151, 0.52)'}}>View Site</a></button>
-
-        
-        </div>
-         
-            
-          </div>
 
           <div className="pro one" >
 
